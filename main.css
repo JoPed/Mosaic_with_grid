@@ -184,5 +184,16 @@ html{
 }
 
 
+@media only screen and (max-width: 399px) {
+
+    .grid-container{
+        width: 192px;
+        grid-template-columns: repeat(16, 12px);
+        grid-template-rows: repeat(14, 12px);
+    }
+    
+}
+
+
 
 
